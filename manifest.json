@@ -5,7 +5,7 @@
     "manifest_version": 3,
     "authors": "Kevin, Jasmine, Brianna, Satwika",
     "action":{
-        "default_popup": "index.html",
+        "default_popup": "client/index.html",
         "default_title": "ProActive"
     }
 }
