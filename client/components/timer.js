@@ -1,3 +1,5 @@
+
+
 export default class Timer {
     constructor(root){
         root.innerHTML = Timer.getHTML();
@@ -28,6 +30,11 @@ export default class Timer {
             if(inputMinutes <= 60){
                 this.stop();
                 this.remainingSeconds = inputMinutes * 60;
+                this.updateInterfaceTime();
+            }
+            else{
+                this.stop();
+                this.remainingSeconds = 3600;
                 this.updateInterfaceTime();
             }
 

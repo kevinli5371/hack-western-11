@@ -1,4 +1,4 @@
-import timer from './timer.js';
+import timer from '../client/components/timer.js';
 
 new timer(
     document.querySelector(".timer-container")
