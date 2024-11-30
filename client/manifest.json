@@ -1,0 +1,11 @@
+{
+    "name": "ProActive",
+    "version": "1.0.0",
+    "description": "The greatest productivity extension ever.",
+    "manifest_version": 3,
+    "authors": "Kevin, Jasmine, Brianna, Satwika",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "ProActive"
+    }
+}
