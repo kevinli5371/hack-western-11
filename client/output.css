@@ -554,8 +554,6 @@ video {
   display: none;
 }
 
-.rounded-lg {
-  border-radius: 0.5rem;
 .sr-only {
   position: absolute;
   width: 1px;
@@ -632,17 +630,10 @@ video {
   justify-content: space-between;
 }
 
-.border-2 {
-  border-width: 2px;
+.rounded-full {
+  border-radius: 9999px;
 }
 
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
-}
-
-.p-2 {
-  padding: 0.5rem;
 .bg-gray-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(209 213 219 / var(--tw-bg-opacity, 1));
@@ -667,9 +658,6 @@ video {
   line-height: 2.25rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
